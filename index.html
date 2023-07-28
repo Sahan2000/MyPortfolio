@@ -5,15 +5,15 @@
     <title>My Portfolio</title>
 </head>
 <body>
-<header>
+<header id="home">
     <nav>
-        <a href="">Home</a>
-        <a href="">About me</a>
-        <a href="">Qualification</a>
-        <a href="">Assignment</a>
-        <a href="">Project</a>
-        <a href="">Gallery</a>
-        <a href="">Contact me</a>
+        <a href="#home">Home</a>
+        <a href="#about_me">About me</a>
+        <a href="#qualification">Qualification</a>
+        <a href="#assignment">Assignment</a>
+        <a href="#project">Project</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact_me">Contact me</a>
     </nav>
 </header>
 
@@ -21,9 +21,7 @@
     <section>
         <img src="assets/image/yhyhyh.png" width="400" alt="image">
     </section>
-</main>
 
-<main>
     <section>
         <h3>Hello,</h3>
         <h2>I'm Sahan Udana</h2>
@@ -44,7 +42,7 @@
     </section>
 </main>
 
-<main>
+<main id="about_me">
     <section>
         <h1>About me</h1>
         <p>I’m a Software Engineering Student in IJSE - Institute of Java and Software Engineering. I am a
@@ -77,7 +75,7 @@
     </section>
 </main>
 
-<main>
+<main id="qualification">
     <section>
         <h1>Qualification</h1>
     </section>
@@ -146,7 +144,7 @@
     </section>
 </main>
 
-<main>
+<main id="assignment">
     <section>
         <h1>Assignments</h1>
         <img src="assets/image/Assignment.png" width="221" alt="assignment">
@@ -172,12 +170,12 @@
         </ul>
 
         <div>
-            <button>See other Assignments</button>
+            <a href="assignment.html#assignments_page"><button>See other Assignments</button></a>
         </div>
     </section>
 </main>
 
-<main>
+<main id="project">
     <section>
         <h1>Project</h1>
         <div>
@@ -207,5 +205,57 @@
         </div>
     </section>
 </main>
+
+<main id="gallery">
+    <h1>Gallery</h1>
+    <div>
+        <img src="assets/image/mygallery(8).jpeg" width="200" alt="my gallery photo 1">
+        <img src="assets/image/mygallery(4).jpg" width="200" alt="my gallery photo 2">
+        <img src="assets/image/mygallery(5).jpg" width="200" alt="my gallery photo 3">
+
+    </div>
+    
+    <div>
+        <img src="assets/image/mygallery(3).jpg" width="200" alt="my gallery photo 4">
+        <img src="assets/image/mygallery(7).jpg" width="200" alt="my gallery photo 5">
+    </div>
+</main>
+
+<main id="contact_me">
+    <section>
+        <h1>Contact me</h1>
+        <img src="assets/image/contact%20me.jpg" width="200" alt="">
+    </section>
+   <section>
+       <form>
+           <br><label for="name">Name:</label>
+           <br><input type="text" id="name" name="name" placeholder="Enter name here..."><br><br>
+           <label for="contact number">Contact No: </label><br>
+           <input type="tel" id="contact number" name="contact number" placeholder="Enter the number here..."><br><br>
+           <label for="email">Email:</label><br>
+           <input type="email" id="email" name="email" placeholder="Enter the Email here..."><br><br>
+           <textarea name="text" id="message" cols="30" rows="10" placeholder="message"></textarea>
+           <br><br><button type="submit">Submit</button>
+       </form>
+   </section>
+</main>
+
+<footer>
+    <section>
+        <img src="assets/image/icons8-email-100.png" width="50" alt="email icon">
+        <h4>sahanudanan90@gmail.com</h4>
+
+        <img src="assets/image/icons8-location-100.png" width="50" alt="location icon">
+        <h4>213/13, Cemetery Road,<br> Palanwatta, Panniptitya.</h4>
+
+        <img src="assets/image/icons8-call-100.png" width="50" alt="call icon">
+        <h4>074-087-2265</h4>
+    </section>
+    
+    <section>
+        <img src="" alt="">
+    </section>
+</footer>
+
 </body>
 </html>
