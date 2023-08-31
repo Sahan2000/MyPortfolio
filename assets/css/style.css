@@ -182,6 +182,8 @@ main>#background_image>div:first-child{
     left: 9.3%;
 }
 
+/*applied the css about me page*/
+
 #about_me{
     position: relative;
     width: 100vw;
@@ -299,4 +301,281 @@ main>#background_image>div:first-child{
     font-weight: bold;
     background-color: #BF2216;
     color: white;
+}
+
+/*applied the css Qualification page*/
+
+#qualification{
+    width: 100vw;
+    height: 200vh;
+    background-color: #F5F5F4;
+    position: relative;
+}
+
+#qualification_topic>h1{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #E5E5E5;
+}
+
+#qualification>section:nth-child(2)>#education_topic{
+    width: 215px;
+    height: 75px;
+    background: #E5E5E5;
+    position: absolute;
+    border-left: 75px solid #BF2216;
+    top: 10%;
+    left: 10%;
+}
+
+#qualification>section:nth-child(2)>#education_topic>h2{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+#qualification>section:nth-child(2)>img{
+    position: absolute;
+    top: 18%;
+    left: 11%;
+}
+
+#education1{
+    width: 232px;
+    height: 213px;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 18%;
+    left: 18%;
+}
+
+#education1>h3{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#education1>p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#education2{
+    width: 232px;
+    height: 213px;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 18%;
+    left: 32%;
+}
+
+#education2>h3{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#education2>p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#education3{
+    width: 232px;
+    height: 213px;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 18%;
+    left: 46%;
+}
+
+#education3>h3{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#education3>p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#education4{
+    width: 232px;
+    height: 213px;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 18%;
+    left: 60%;
+}
+
+#education4>h3{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#education4>p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#qualification>section:nth-child(3)>#skill_topic{
+    width: 132px;
+    height: 75px;
+    background: #E5E5E5;
+    position: absolute;
+    border-right: 75px solid #BF2216;
+    top: 43.2%;
+    left: 68%;
+}
+
+#qualification>section:nth-child(3)>#skill_topic>h1{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    /*margin-top: 15px;*/
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#skill_icon{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+
+#qualification>section:nth-child(4)>#experience_topic{
+    width: 242px;
+    height: 75px;
+    background: #E5E5E5;
+    position: absolute;
+    border-left: 75px solid #BF2216;
+    top: 68.2%;
+    left: 10%;
+}
+
+#qualification>section:nth-child(4)>#experience_topic>h1{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    /*margin-top: 15px;*/
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+#experience1{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom: 20%;
+    left: 22%;
+}
+
+#experience1>h3{
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+#qualification>section:nth-child(4)>section>p{
+    position: absolute;
+    bottom: 5%;
+    left: 18%;
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+}
+
+#qualification>section:nth-child(4)>section>img{
+    position: absolute;
+    bottom: 2%;
+    right: 20%;
 }
