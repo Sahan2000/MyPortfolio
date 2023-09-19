@@ -12,7 +12,7 @@ header{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-bottom-left-radius: 30px;
-    z-index: 9;
+    z-index:20;
 }
 
 header>nav>ol{
@@ -591,7 +591,7 @@ main>#background_image>div:first-child{
 
 #assignment_head_topic{
     width: 100vw;
-    height: 263px;
+    height: 35vh;
     background: #E5E5E5;
 }
 
@@ -601,7 +601,7 @@ main>#background_image>div:first-child{
     position: absolute;
     left: 0;
     right: 0;
-    top: 5%;
+    top: 10%;
     margin: auto;
     font-weight: bold;
     font-size: 40px;
@@ -611,15 +611,15 @@ main>#background_image>div:first-child{
 #assignment1_image{
     position: absolute;
     left: 10%;
-    top: 17%;
+    top: 20%;
 }
 
 #education_icon{
     width: 110px;
     height: 110px;
     position: absolute;
-    top: 35%;
-    left: 16.4%;
+    top: 44%;
+    left: 18.5%;
     background-color: white;
     border-radius: 100%;
 }
@@ -635,11 +635,11 @@ main>#background_image>div:first-child{
 }
 
 #assignment1_desc{
-    width: 350px;
-    height: 218.75px;
+    width: 450px;
+    height: 300px;
     background-color: white;
     position: absolute;
-    top: 41%;
+    top: 50%;
     left: 10%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     z-index: 9;
@@ -668,22 +668,26 @@ main>#background_image>div:first-child{
     color: #BF2216;
 }
 
+#assignment1_desc>ul>li{
+    font-size: 27px;
+}
+
 #assignment1_desc>ul>li>span{
     color: black;
 }
 
 #assignment2_image{
     position: absolute;
-    left: 40%;
-    top: 17%;
+    left: 38%;
+    top: 20%;
 }
 
 #education2_icon{
     width: 110px;
     height: 110px;
     position: absolute;
-    top: 35%;
-    left: 46.5%;
+    top: 44%;
+    left: 47%;
     background-color: white;
     border-radius: 100%;
 }
@@ -699,12 +703,12 @@ main>#background_image>div:first-child{
 }
 
 #assignment2_desc{
-    width: 350px;
-    height: 218.75px;
+    width: 450px;
+    height: 300px;
     background-color: white;
     position: absolute;
-    top: 41%;
-    left: 40%;
+    top: 50%;
+    left: 38%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     z-index: 9;
 }
@@ -732,22 +736,26 @@ main>#background_image>div:first-child{
     color: #BF2216;
 }
 
+#assignment2_desc>ul>li{
+    font-size: 27px;
+}
+
 #assignment2_desc>ul>li>span{
     color: black;
 }
 
 #assignment3_image{
     position: absolute;
-    left: 70%;
-    top: 17%;
+    left: 66%;
+    top: 20%;
 }
 
 #education3_icon{
     width: 110px;
     height: 110px;
     position: absolute;
-    top: 35%;
-    left: 76.5%;
+    top: 44%;
+    left: 75%;
     background-color: white;
     border-radius: 100%;
 }
@@ -763,12 +771,12 @@ main>#background_image>div:first-child{
 }
 
 #assignment3_desc{
-    width: 350px;
-    height: 218.75px;
+    width: 450px;
+    height: 300px;
     background-color: white;
     position: absolute;
-    top: 41%;
-    left: 70%;
+    top: 50%;
+    left: 66%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     z-index: 9;
 }
@@ -792,27 +800,33 @@ main>#background_image>div:first-child{
     left: 5%;
     font-weight: 400;
     font-family: 'Inter',sans-serif;
-    font-size: 20px;
+    /*font-size: 20px;*/
     color: #BF2216;
+}
+
+#assignment3_desc>ul>li{
+    font-size: 27px;
 }
 
 #assignment3_desc>ul>li>span{
     color: black;
+
 }
 
 #see_another_assignment_page{
     width: 100vw;
-    height: 263px;
+    height: 35vh;
     background-color: #E5E5E5;
     position: absolute;
-    top: 55%;
+    top: 65%;
 }
 
 #see_another_assignment_page>a>button{
     position: absolute;
-    top: 55%;
-    left: 42.8%;
-    border-radius: 50px;
+    top: 65%;
+    left: 43.3%;
+    border-radius: 10px;
+    border: none;
     width: 243px;
     height: 43px;
     background-color: #BF2216;
@@ -821,3 +835,622 @@ main>#background_image>div:first-child{
     font-weight: bold;
     color: white;
 }
+
+/*applied the css Project page*/
+
+#project{
+    position: relative;
+    width: 100vw;
+    height: 300vh;
+}
+
+#project>section>h1{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'inter', sans-serif;
+}
+
+#project_topic_line_1{
+    width: 74px;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 7.5%;
+    left: 20%;
+}
+
+#project_topic_line_2{
+    width: 50px;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 8%;
+    left:20% ;
+}
+
+#electrical_management_system{
+    position: absolute;
+    top: 12%;
+    left: 25%;
+}
+
+#electrical_management_system>div{
+    width: 380px;
+    height: 372px;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+}
+
+#electrical_management_system>h3{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 5.8%;
+}
+
+#electrical_management_system>a{
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+}
+
+#connect_four_game{
+    position: absolute;
+    top: 28%;
+    left: 40%;
+}
+
+#connect_four_game>div{
+    width: 380px;
+    height: 372px;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+}
+
+#connect_four_game>h3{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+}
+
+#connect_four_game>a{
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+}
+
+#chat_application{
+    position: absolute;
+    top: 44%;
+    left: 25%;
+}
+
+#chat_application>div{
+    width: 380px;
+    height: 372px;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+}
+
+#chat_application>h3{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+
+#chat_application>a{
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+}
+
+#stock_management{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+#stock_management>div{
+    width: 380px;
+    height: 372px;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+}
+
+#stock_management>h3{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+#stock_management>a{
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+}
+
+#projectJaguar{
+    position: absolute;
+    top: 76%;
+    left: 25%;
+}
+
+#projectJaguar>div{
+    width: 380px;
+    height: 372px;
+    background-color: black;
+    opacity: 60%;
+    position: absolute;
+}
+
+#projectJaguar>h3{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 13%;
+}
+
+#projectJaguar>a{
+    height: fit-content;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+}
+
+/*applied the css Gallery page*/
+
+#gallery{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+#gallery>h1{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    margin: auto;
+
+    font-size: 40px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+}
+
+#gallery>div{
+    width: 1100px;
+    height: 800px;
+    /*border: 5px solid orange;*/
+    display: grid;
+
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+    position: absolute;
+    top: 17%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#gallery>div>div{
+   /* border: 1px solid black;*/
+}
+
+#gallery>div>div:first-child{
+    /*background-image: url("../image/mygallery(8).jpeg" );*/
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-repeat: no-repeat;
+}
+
+#gallery>div>div:nth-child(2){
+    /*background: blue;*/
+}
+#gallery>div>div:nth-child(3){
+    /*background: gray;*/
+}
+#gallery>div>div:nth-child(4){
+    /*background: deepskyblue;*/
+}
+#gallery>div>div:nth-child(5){
+    /*background: yellow;*/
+    grid-row: 2/4;
+}
+#gallery>div>div:nth-child(6){
+    /*background: deeppink;*/
+}
+#gallery>div>div:nth-child(7){
+    /*background: purple;*/
+}
+#gallery>div>div:nth-child(8){
+    /*background: bisque;*/
+    grid-column: 3/5;
+}
+
+#contact_me{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#contact_me>section:first-child>h1{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+}
+
+#contact_me>section:first-child>div:first-child{
+    width: 74px;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 17%;
+    left: 20%;
+}
+
+#contact_me>section:first-child>div:nth-child(2){
+    width: 50px;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 18.3%;
+    left:20% ;
+}
+
+#contact_me_img{
+    width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 5px solid #BF2216;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    overflow: hidden;
+}
+
+#contact_me>section:last-child{
+    width: 657px;
+    height: 536px;
+    border: 2px solid #BF2216;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#contact_me>section:last-child>form{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#contact_me>section:last-child>form>#name{
+    width: 586px;
+    height: 49px;
+    border: 2px solid #BF2216;
+    border-radius: 20px;
+    font-size: 32px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+}
+
+#contact_me>section:last-child>form>#contact\ number{
+    width: 586px;
+    height: 49px;
+    border: 2px solid #BF2216;
+    border-radius: 20px;
+    font-size: 32px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+}
+
+#contact_me>section:last-child>form>#email{
+    width: 586px;
+    height: 49px;
+    border: 2px solid #BF2216;
+    border-radius: 20px;
+    font-size: 32px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+}
+
+#contact_me>section:last-child>form>#message{
+    width: 586px;
+    height: 132px;
+    border: 2px solid #BF2216;
+    border-radius: 20px;
+    font-size: 32px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+}
+
+#contact_me>section:last-child>form>button{
+    background-color: #BF2216;
+    width: 114px;
+    height: 49px;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+}
+
+footer{
+    width: 100vW;
+    height: 383px;
+    background-color: #BF2216;
+    position: relative;
+}
+
+footer>section>img:first-child{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+footer>section>#email_text{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+    color: white;
+}
+
+footer>section>#location{
+    position: absolute;
+    left: 10%;
+    top: 55%;
+}
+
+footer>section>#location_text{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 48%;
+    left: 20%;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+    color: white;
+}
+
+footer>section>#call{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+}
+
+footer>section>#call_text{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+    color: white;
+}
+
+footer>section:last-child>img{
+    position: absolute;
+    left: 75%;
+    top: 23%;
+}
+
+/*Apply the css Assignment Page*/
+
+#assignments_page{
+    position: relative;
+    height: 300vh;
+    width: 100vw;
+    background-color: #F5F5F4;
+}
+
+#assignments_page>section>h1{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: -3%;
+    left: 6%;
+    z-index: 20;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 190px;
+}
+
+.flex-box{
+    z-index: 10;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px;
+    position: relative;
+}
+
+.assignment-box{
+    width: 450px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+
+.assignment-box>h3{
+    height: fit-content;
+    width: fit-content;
+    font-size: 27px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.assignment-box>ul{
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+    color: #BF2216;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    margin: auto;
+}
+
+.assignment-box>ul>li>span{
+    color: black;
+}
+
+.background-box{
+
+    width: 100vw;
+    height: 350px;
+    background-color: #E5E5E5;
+    position: absolute;
+}
+
+#background-box1{
+    top: 17%;
+}
+
+#background-box2{
+    top: 41%;
+}
+
+#background-box3{
+    top: 65%;
+}
+
+#background-box4{
+    bottom: 0;
+}
+
+.icon-box{
+    z-index: 15;
+    width: 105px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.icon-box>img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
