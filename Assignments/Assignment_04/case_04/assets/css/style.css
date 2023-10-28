@@ -1,0 +1,25 @@
+div{
+    width: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 5px solid red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: my-animation infinite ;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+@keyframes my-animation {
+    from{
+        width: 20px;
+    }
+    to{
+        width: 200px;
+        opacity: 0;
+    }
+}

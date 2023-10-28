@@ -1,0 +1,55 @@
+.ch{
+    position: sticky;
+    top: 0%;
+    z-index: 9999;
+}
+
+section>div{
+    position: relative;
+}
+section>div:nth-child(1){
+    background-color: #ff253a;
+    height: 50px;
+}
+section>div:nth-child(1)>span{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    font-weight: bold;
+}
+section>div:nth-child(2){
+    height: calc(100vh - 50px);
+    position: relative;
+}
+section>div:nth-child(2)>span{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    margin: auto;
+    font-size: 80px;
+}
+section:nth-child(2)>div:nth-child(1){
+    background-color: darkblue;
+}
+section:nth-child(2)>div:nth-child(2){
+    background-color: lightblue;
+}
+section:nth-child(3)>div:nth-child(1){
+    background-color: dimgray;
+}
+section:nth-child(3)>div:nth-child(2){
+    background-color: gray;
+}
+section:nth-child(4)>div:nth-child(1){
+    background-color: darkred;
+}
+section:nth-child(4)>div:nth-child(2){
+    background-color: red;
+}

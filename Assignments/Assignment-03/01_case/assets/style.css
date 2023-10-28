@@ -1,0 +1,150 @@
+section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+section>div:nth-child(1){
+    background: red;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+section>div:nth-child(2){
+    background: green;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0%;
+}
+
+section>div:nth-child(3){
+    background: orange;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0%;
+}
+
+section>div:nth-child(4){
+    background: deeppink;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+section>div:nth-child(5){
+    background: white;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    margin: auto;
+}
+
+section>div:nth-child(5)>div{
+    background: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+}
+
+.main>div{
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+}
+
+.main>div>div{
+    background: red;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+}
+
+section>div:nth-child(6){
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    left: calc(0% - 75px);
+    top: calc(0% - 75px);
+}
+
+section>div:nth-child(7){
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    left: calc(50% - 75px);
+    top: calc(0% - 75px);
+}
+
+section>div:nth-child(8){
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    right: calc(0% - 75px);
+    top: calc(0% - 75px);
+}
+
+section>div:nth-child(9){
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    left: calc(0% - 75px);
+    bottom: calc(0% - 75px);
+}
+
+section>div:nth-child(10){
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    left: calc(50% - 75px);
+    bottom: calc(0% - 75px);
+}
+
+section>div:nth-child(11){
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    position: absolute;
+    right: calc(0% - 75px);
+    bottom: calc(0% - 75px);
+}
+
+body{
+    overflow: hidden;
+}

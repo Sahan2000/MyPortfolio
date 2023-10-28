@@ -1,0 +1,71 @@
+section{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    animation: my-animation infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+main{
+    width: 50vw;
+    height: 50vh;
+    border: 5px solid red;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+div{
+    width: 50vw;
+    height: 50vh;
+
+}
+
+div:first-child{
+    background-image: url("../images/images/slide1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+div:nth-child(2){
+    background-image: url("../images/images/slide2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+div:nth-child(3){
+    background-image: url("../images/images/slide3.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+div:nth-child(4){
+    background-image: url("../images/images/slide4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes my-animation {
+    0%,20%{
+       transform: translateX(0%);
+    }
+
+    25%,45%{
+        transform: translateX(-25%);
+    }
+
+    50%,70%{
+        transform: translateX(-50%);
+    }
+
+    75%,100%{
+        transform: translateX(-75%);
+    }
+}

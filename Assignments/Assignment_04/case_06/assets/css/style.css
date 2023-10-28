@@ -1,0 +1,93 @@
+body{
+    overflow-x: hidden;
+}
+
+section{
+    position: relative;
+}
+section>div:first-child{
+    background-image: url("../images/sky.jpg");
+    width: 300vw;
+    height: 100vh;
+}
+
+section>div:nth-child(2){
+    background-image: url("../images/city.png");
+    width: 500vw;
+    height: 28vh;
+    position: absolute;
+    top: 13.4%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: my-animation1 infinite linear;
+    animation-duration: 10s;
+}
+
+section>div:nth-child(3){
+    background-image: url("../images/road.jpg");
+    width: 500vw;
+    height: 31.8vh;
+    position: absolute;
+    animation: my-animation1 infinite linear;
+    animation-duration: 10s;
+    bottom: 0;
+}
+
+@keyframes my-animation1 {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-25%);
+    }
+    50%{
+        transform: translateX(-50%);
+    }
+    75%{
+        transform: translateX(-75%);
+    }
+    100%{
+        transform: translateX(-80%);
+    }
+}
+
+section>div:nth-child(4){
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+section>div:nth-child(5){
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    animation: my-animation infinite linear ;
+    animation-duration: 3s;
+    bottom: 16%;
+    left: 55.5%;
+}
+
+section>div:nth-child(6){
+    width: fit-content;
+    height: fit-content;
+    animation: my-animation infinite linear ;
+    animation-duration: 3s;
+    position: absolute;
+    bottom: 16%;
+    left: 37.9%;
+}
+
+@keyframes my-animation {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}

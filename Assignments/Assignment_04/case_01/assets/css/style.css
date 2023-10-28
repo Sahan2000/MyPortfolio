@@ -1,0 +1,50 @@
+section{
+    position: absolute;
+    /*background-color: lightblue;*/
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+section>div{
+    background-color: rebeccapurple;
+    width: 250px;
+    height: 80px;
+    color: white;
+    position: relative;
+    margin: 40px 0px;
+    right: 190px;
+    transition-duration: 2s;
+    transition-property: right;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+section>div>h3{
+    height: max-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-left: 20px;
+}
+
+section>div>div{
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    margin-right: 20px;
+}
+
+section>div:hover{
+    right: 0px;
+}
+
