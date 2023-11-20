@@ -78,7 +78,7 @@ window.onscroll = ()=>{
     navList.classList.remove("open");
 }
 
-/*-----------------------paralax---------------------------*/
+/*-----------------------parallax---------------------------*/
 
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
@@ -100,12 +100,53 @@ const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((e1)=>observer.observe(e1));
 
 
+/*------------------------------send and email using------------------------------*/
 
+function sendEmail() {
 
+    let name = document.querySelector('#name').value;
+    let email = document.querySelector('#email').value;
+    let address = document.querySelector('#address').value;
+    let contact = document.querySelector('#phone').value;
+    let message = document.querySelector('#message').value;
+    let subject = document.querySelector('#subject').value;
 
+    let body = "Name :" + name + "<br/> Email :" + email + "<br/> Contact Number :" + contact + "<br/> Subject :" + subject + "<br/> Message :" + message;
 
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "sahanudana90@gmail.com",
+        Password : "E9582F081599CABBA35DF416482333B3066F",
+        To : 'sahanudana90@gmail.com',
+        From : "sahanudana90@gmail.com",
+        Subject : "This is the subject",
+        Body : body
+    }).then(
+        message => alert(message)
+    );
+}
 
+// preloader
+var loader =document.getElementById("preloader");
 
+window.addEventListener("load",function (){
+    loader.style.display = "none";
+})
+
+/*-------------------------------------------dark-theme icon-------------------------------------*/
+
+var icon = document.getElementById("icon");
+
+icon.onclick = function (){
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")){
+        icon.classList.add("bxs-sun");
+        icon.classList.remove("bxs-moon");
+    }else {
+        icon.classList.add("bxs-moon");
+        icon.classList.remove("bxs-sun");
+    }
+}
 
 
 

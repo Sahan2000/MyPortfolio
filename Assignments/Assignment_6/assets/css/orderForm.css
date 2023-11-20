@@ -1,0 +1,84 @@
+.container{
+    width: fit-content;
+    height: auto;
+    background-color: #E5E5E5;
+    padding: 20px 5%;
+}
+
+.order1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.col-lg-6{
+    width: 100%;
+}
+
+.btn-outline-success{
+    border: 1px solid #9d4edd;
+    color: #9d4edd;
+}
+
+.btn-outline-success:hover{
+    background-color: #9d4edd;
+    border: 1px solid #9d4edd;
+}
+
+.btn-outline-primary{
+    border: 1px solid #52B788;
+    color: #52B788;
+}
+
+.btn-outline-primary:hover{
+    background-color: #52B788;
+    border: 1px solid #52B788;
+}
+
+.btn-outline-danger{
+    border: 1px solid #FF5C8A;
+    color: #FF5C8A;
+}
+
+.btn-outline-danger:hover{
+    background-color: #FF5C8A;
+    border: 1px solid #FF5C8A;
+}
+
+.table-color>tr>th{
+    background-color: #9d4edd;
+    color: #FFFFFF;
+}
+
+.table{
+    width: 500px;
+}
+
+.card{
+    width: 550px;
+    background-color: #E5E5E5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#order_item_btn{
+    margin-left: 20px;
+}
+
+#order_btn{
+    margin: 20px;
+}
+
+.searchField{
+    width: 300px;
+    margin: 30px;
+}
+
+.searchBtn{
+    margin: 30px;
+    margin-left: 1px;
+}
+
+.d-flex{
+    justify-content: right;
+}
